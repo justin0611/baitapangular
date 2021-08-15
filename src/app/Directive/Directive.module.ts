@@ -1,12 +1,13 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { Baitap5Component } from './Baitap5.component';
+import { Baitap6Component } from './Baitap6.componet';
+
 import { DirectiveComponent } from './Directive.component';
 
 @NgModule({
   imports: [CommonModule, FormsModule],
   exports: [DirectiveComponent],
-  declarations: [DirectiveComponent, Baitap5Component],
+  declarations: [DirectiveComponent, Baitap6Component],
 })
 export class DirectiveModule {}

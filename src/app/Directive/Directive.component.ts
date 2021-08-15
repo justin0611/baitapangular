@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
     selector: 'app-directive',
     template: `
-    <app-baitap5></app-baitap5>
+    <app-baitap6></app-baitap6>
     `
 })
 
